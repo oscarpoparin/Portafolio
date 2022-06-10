@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Oscar Reyes Ponciano</title>
+    <link rel="stylesheet" href="/plantillas/Nueva carpeta/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/e13903e899.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="top">
+            <div class="container">
+                <div class="logo">
+                    <img src="/plantillas/Nueva carpeta/assets/img/cv2.png" alt="postulante" class="persona">
+                </div>
+                <div class="text-header">
+                    <h1 class="item title">oscar reyes ponciano</h1>
+                    <span class=" item carrera">ing. sistemas computacionales</span>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="elemt elemt1">
+                    <div class="icont-top">
+                        <!--<img src="/plantillas/Nueva carpeta/assets/img/bxs-home.svg" alt="logo" class="icon">-->
+                        <i class="svg fa-solid fa-house"></i>
+                    </div>
+                    <div class="links">
+                        <a href="#inicio">inicio</a>
+                    </div>
+                </div>
+                <div class="elemt elemt2">
+                    <div class="icont-top">
+                        <i class="svg fa-solid fa-user"></i>
+                    </div>
+                    <div class="links">
+                        <a href="#about">sobre mi</a>
+                    </div>
+                </div>
+                <div class="elemt elemt3">
+                    <div class="icont-top">
+                        <i class="svg fa-solid fa-border-all"></i>
+                    </div>
+                    <div class="links">
+                        <a href="#portafolio">portafolio</a>
+                    </div>
+                </div>
+                <div class="elemt elemt4">
+                    <div class="icont-top">
+                        <i class="svg fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="links">
+                        <a href="#contacto">contacto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="items icon1">
+                <a href="#" class="icons-social">
+                    <i class="s-icon1 fa-brands fa-facebook-f"></i>
+                    <!--<span class="label">Instagram</span>-->
+                </a>
+            </div>
+            <div class="items icon2">
+                <a href="#" class="icons-social">
+                    <i class="s-icon2 fa-brands fa-instagram"></i>
+                    <!--<span class="label">Instagram</span>-->
+                </a>
+            </div>
+            <div class="items icon3">
+                <a href="#" class="icons-social">
+                    <i class="s-icon3 fa-brands fa-whatsapp"></i>
+                    <!--<span class="label">Instagram</span>-->
+                </a>
+            </div>
+            <div class="items icon4">
+                <a href="#" class="icons-social">
+                    <i class="s-icon4 fa-brands fa-telegram"></i>
+                    <!--<span class="label">Instagram</span>-->
+                </a>
+            </div>
+            <div class="items icon5">
+                <a href="#" class="icons-social">
+                    <i class="s-icon5 fa-brands fa-github"></i> 
+                    <!--<span class="label">Instagram</span>-->
+                </a>
+            </div>
+            <div class="items icon6">
+                <a href="#" class="icons-social">
+                    <i class="s-icon6 fa-brands fa-linkedin-in"></i>
+                    <!--<span class="label">Instagram</span>-->
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <section id="inicio" class="one">
+            <div class="section1">
+                <div class="header-section">
+                    <h2 class="alt" id="texto"></h2>
+                    <!--<p>Soy un programador y me gustaria ayudarte en cualquier proyecto que necesites</p>-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum error pariatur nobis unde? Asperiores eaque cum modi aliquam reprehenderit cumque autem deleniti. Laborum reprehenderit quam consequuntur cum dolores totam.</p>
+                    <script>
+                        var i=0;
+                        var txt = 'Hola, Bienvenido a mi portafolio digital';
+                        var speed = 100; /*Velocidad*/
+
+                        function write(){
+                            if(i < txt.length){
+                                document.getElementById('texto').innerHTML += txt.charAt(i);
+                                i++;
+                                setTimeout(write, speed);
+                            }
+                        }
+                        write();
+                    </script>
+                </div>
+                <div class="footer-section">
+                    <div class="button">
+                        <a href="#portafolio">Magna Aliquam</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="two">
+            <div class="section2">
+                <div class="header-section2">
+                    <h2>Sobre Mi</h2>
+                </div>
+                <div class="main-section2">
+                    <h2 class="question1">¿Quién Soy?</h2>
+                    <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto molestias, eius facilis fugit sed eligendi voluptates explicabo fugiat accusantium mollitia, natus impedit illo repellat quo vero dignissimos praesentium nam laborum.</p>
+                
+                    <h2 class="question2">Habilidades</h2>
+                    <div class="skills1">
+                        <ul class="slider1">
+                            <li class="slider1-li1">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-c-plus-plus.svg" alt="iconos" class="skills-icon">
+                            </li>
+                        </ul>
+                        <ul class="slider1">
+                            <li class="slider1-li1">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-java.svg" alt="iconos" class="skills-icon">
+                            </li>
+                        </ul>
+                        <ul class="slider1">
+                            <li class="slider1-li1">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-android.svg" alt="iconos" class="skills-icon">
+                            </li>
+                        </ul>
+                        <ul class="slider1">
+                            <li class="slider1-li1">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-python.svg" alt="iconos" class="skills-icon">
+                            </li>
+                        </ul>
+                        <ul class="slider1">
+                            <li class="slider1-li1">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-php.svg" alt="iconos" class="skills-icon">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills2">
+                        <ul class="slider2">
+                            <li class="slider2-li2">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-html5.svg" alt="iconos" class="skills-icon">
+                            </li>
+                            <li class="slider2-li2">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-css3.svg" alt="iconos" class="skills-icon">
+                            </li>
+                            <li class="slider2-li2">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-javascript.svg" alt="iconos" class="skills-icon">
+                            </li>
+                            <li class="slider2-li2">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-git.svg" alt="iconos" class="skills-icon">
+                            </li>
+                            <li class="slider2-li2">
+                                <img src="/plantillas/Nueva carpeta/assets/img/bxl-wordpress.svg" alt="iconos" class="skills-icon">
+                            </li>
+                        </ul>                      
+                    </div>
+                </div>
+                <div class="footer-section2">
+                    <a href="/plantillas/Nueva carpeta/assets/cv/Cv1.pdf" download="Cv" class="cv">Descargar CV</a>
+                </div>
+            </div>
+        </section>
+        <section id="portafolio" class="three">
+            <div class="container-section">
+                <div class="header-section3">
+                    <h2>Portafolio</h2>
+                </div>
+                <div class="container-two">
+                    <div class="container-two-img1">
+                        <figure>
+                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <div class="capa">
+                                <h3 class="title-project">Proyecto 1</h3>
+                                <a href="" class="links-project">Ver proyecto</a>
+                                <a href="" class="links-project">Ver repositorio</a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="container-two-img2">
+                        <figure>
+                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <div class="capa">
+                                <h3 class="title-project">Proyecto 1</h3>
+                                <a href="" class="links-project">Ver proyecto</a>
+                                <a href="" class="links-project">Ver repositorio</a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="container-two-img3">
+                        <figure>
+                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <div class="capa">
+                                <h3 class="title-project">Proyecto 1</h3>
+                                <a href="" class="links-project">Ver proyecto</a>
+                                <a href="" class="links-project">Ver repositorio</a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="container-two-img4">
+                        <figure>
+                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <div class="capa">
+                                <h3 class="title-project">Proyecto 1</h3>
+                                <a href="" class="links-project">Ver proyecto</a>
+                                <a href="" class="links-project">Ver repositorio</a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="container-two-img5">
+                        <figure>
+                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <div class="capa">
+                                <h3 class="title-project">Proyecto 1</h3>
+                                <a href="" class="links-project">Ver proyecto</a>
+                                <a href="" class="links-project">Ver repositorio</a>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="container-two-img6">
+                        <figure>
+                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <div class="capa">
+                                <h3 class="title-project">Proyecto 1</h3>
+                                <a href="" class="links-project">Ver proyecto</a>
+                                <a href="" class="links-project">Ver repositorio</a>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="four">
+            <div class="container-section">
+                <header class="header-section4">
+                    <h2 class="title4">¿Cómo podemos ayudarte?</h2>
+                </header>
+                <form action="" class="formulario" method="post" >
+                    <input type="text" name="Nombre" id="" placeholder="Nombre" class="text">
+                    <input type="email" name="Email" id="" placeholder="Email" class="email">
+                    <input type="tel" name="telefono" id="" placeholder="Telefono" class="tel">
+                    <input type="text" name="Ciudad" id="" placeholder="Ciudad" class="ciudad">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="area"></textarea>
+                    <input type="submit" value="Enviar" class="button">
+                </form>
+            </div>
+        </section>
+        <div class="footer">
+            <p>&copy;Oscar Reyes Ponciano | Reservo todo los derechos</p>
+        </div>
+    </div>
+</body>
+</html>
