@@ -112,6 +112,14 @@
                                 document.getElementById('texto').innerHTML += txt.charAt(i);
                                 i++;
                                 setTimeout(write, speed);
+                                if(i >= 40){
+                                    i=0;
+                                    if(i < txt.length){
+                                        document.getElementById('texto').innerHTML='';
+                                        document.getElementById('texto').innerHTML += txt.charAt(i);
+                                        i++;
+                                    }
+                                }
                             }
                         }
                         write();
