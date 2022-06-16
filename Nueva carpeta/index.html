@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Oscar Reyes Ponciano</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <script src="https://kit.fontawesome.com/e13903e899.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
+    <div class="header">
         <div class="top">
             <div class="container">
                 <div class="logo">
                     <img src="./assets/img/cv2.png" alt="postulante" class="persona">
                 </div>
                 <div class="text-header">
-                    <h1 class="item title">oscar reyes ponciano</h1>
-                    <span class=" item carrera">ing. sistemas computacionales</span>
+                    <h1 class="title">oscar reyes ponciano</h1><!--item-->
+                    <span class="carrera">ing. sistemas computacionales</span>
                 </div>
             </div>
             <div class="nav">
                 <div class="elemt elemt1">
                     <div class="icont-top">
-                        <!--<img src="/plantillas/Nueva carpeta/assets/img/bxs-home.svg" alt="logo" class="icon">-->
-                        <i class="svg fa-solid fa-house"></i>
+                        <i class="svg fa-solid fa-house "></i>
                     </div>
                     <div class="links">
                         <a href="#inicio">inicio</a>
@@ -94,7 +94,7 @@
                 </a>
             </div>
         </div>
-    </header>
+    </div>
     <div class="main">
         <section id="inicio" class="one">
             <div class="section1">
@@ -102,28 +102,6 @@
                     <h2 class="alt" id="texto"></h2>
                     <!--<p>Soy un programador y me gustaria ayudarte en cualquier proyecto que necesites</p>-->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum error pariatur nobis unde? Asperiores eaque cum modi aliquam reprehenderit cumque autem deleniti. Laborum reprehenderit quam consequuntur cum dolores totam.</p>
-                    <script>
-                        var i=0;
-                        var txt = 'Hola, Bienvenido a mi portafolio digital';
-                        var speed = 100; /*Velocidad*/
-
-                        function write(){
-                            if(i < txt.length){
-                                document.getElementById('texto').innerHTML += txt.charAt(i);
-                                i++;
-                                setTimeout(write, speed);
-                                if(i >= 40){
-                                    i=0;
-                                    if(i < txt.length){
-                                        document.getElementById('texto').innerHTML='';
-                                        document.getElementById('texto').innerHTML += txt.charAt(i);
-                                        i++;
-                                    }
-                                }
-                            }
-                        }
-                        write();
-                    </script>
                 </div>
                 <div class="footer-section">
                     <div class="button">
@@ -139,8 +117,7 @@
                 </div>
                 <div class="main-section2">
                     <h2 class="question1">¿Quién Soy?</h2>
-                    <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto molestias, eius facilis fugit sed eligendi voluptates explicabo fugiat accusantium mollitia, natus impedit illo repellat quo vero dignissimos praesentium nam laborum.</p>
-                
+                    <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto molestias, eius facilis fugit sed eligendi voluptates explicabo fugiat accusantium mollitia, natus impedit illo repellat quo vero dignissimos praesentium nam laborum.</p>              
                     <h2 class="question2">Habilidades</h2>
                     <div class="skills1">
                         <ul class="slider1">
@@ -202,61 +179,61 @@
                 <div class="container-two">
                     <div class="container-two-img1">
                         <figure>
-                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <img src="./assets/img/Back-img1.png" alt="proyecto">
                             <div class="capa">
-                                <h3 class="title-project">Proyecto 1</h3>
-                                <a href="" class="links-project">Ver proyecto</a>
-                                <a href="" class="links-project">Ver repositorio</a>
+                                <h3 class="title-project">Portafolio C++</h3>
+                                <a href="./Evidencias_C.html" class="links-project">Ver portafolio</a>
+                                <!--<a href="" class="links-project">Ver repositorio</a>-->
                             </div>
                         </figure>
                     </div>
                     <div class="container-two-img2">
                         <figure>
-                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <img src="./assets/img/Back-img2.png" alt="proyecto">
                             <div class="capa">
-                                <h3 class="title-project">Proyecto 1</h3>
-                                <a href="" class="links-project">Ver proyecto</a>
-                                <a href="" class="links-project">Ver repositorio</a>
+                                <h3 class="title-project">Portafolio Java</h3>
+                                <a href="./Evidencias_Java.html" class="links-project">Ver portafolio</a>
+                                <!--<a href="" class="links-project">Ver repositorio</a>-->
                             </div>
                         </figure>
                     </div>
                     <div class="container-two-img3">
                         <figure>
-                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <img src="./assets/img/Back-img3.png" alt="proyecto">
                             <div class="capa">
-                                <h3 class="title-project">Proyecto 1</h3>
-                                <a href="" class="links-project">Ver proyecto</a>
-                                <a href="" class="links-project">Ver repositorio</a>
+                                <h3 class="title-project">Portafolio Python</h3>
+                                <a href="./Evidencias_Python.html" class="links-project">Ver portafolio</a>
+                                <!--<a href="" class="links-project">Ver repositorio</a>-->
                             </div>
                         </figure>
                     </div>
                     <div class="container-two-img4">
                         <figure>
-                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <img src="./assets/img/Back-img4.png" alt="proyecto">
                             <div class="capa">
-                                <h3 class="title-project">Proyecto 1</h3>
-                                <a href="" class="links-project">Ver proyecto</a>
-                                <a href="" class="links-project">Ver repositorio</a>
+                                <h3 class="title-project">Portafolio Movil</h3>
+                                <a href="./Evidencias_Movil.html" class="links-project">Ver portafolio</a>
+                                <!--<a href="" class="links-project">Ver repositorio</a>-->
                             </div>
                         </figure>
                     </div>
                     <div class="container-two-img5">
                         <figure>
-                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <img src="./assets/img/Back-img5.png" alt="proyecto">
                             <div class="capa">
-                                <h3 class="title-project">Proyecto 1</h3>
-                                <a href="" class="links-project">Ver proyecto</a>
-                                <a href="" class="links-project">Ver repositorio</a>
+                                <h3 class="title-project">Portafolio Paginas Web</h3>
+                                <a href="./Evidencias_Web.html" class="links-project">Ver portafolio</a>
+                                <!--<a href="" class="links-project">Ver repositorio</a>-->
                             </div>
                         </figure>
                     </div>
                     <div class="container-two-img6">
                         <figure>
-                            <img src="./assets/img/Back-img.jpg" alt="proyecto">
+                            <img src="./assets/img/Back-img6.png" alt="proyecto">
                             <div class="capa">
-                                <h3 class="title-project">Proyecto 1</h3>
-                                <a href="" class="links-project">Ver proyecto</a>
-                                <a href="" class="links-project">Ver repositorio</a>
+                                <h3 class="title-project">Portafolio Ecommerce</h3>
+                                <a href="./Evidencias_Ecommerce.html" class="links-project">Ver portafolio</a>
+                                <!--<a href="" class="links-project">Ver repositorio</a>-->
                             </div>
                         </figure>
                     </div>
@@ -268,12 +245,12 @@
                 <header class="header-section4">
                     <h2 class="title4">¿Cómo podemos ayudarte?</h2>
                 </header>
-                <form action="" class="formulario" method="post" >
-                    <input type="text" name="Nombre" id="" placeholder="Nombre" class="text">
-                    <input type="email" name="Email" id="" placeholder="Email" class="email">
-                    <input type="tel" name="telefono" id="" placeholder="Telefono" class="tel">
-                    <input type="text" name="Ciudad" id="" placeholder="Ciudad" class="ciudad">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="area"></textarea>
+                <form class="formulario" action="https://formspree.io/f/mrgjdrzd" method="POST">
+                    <input type="text" name="Nombre" placeholder="Nombre" class="text" name="nombre">
+                    <input type="email" name="Email" placeholder="Email" class="email" name="email">
+                    <input type="tel" name="telefono" placeholder="Telefono" class="tel" name="telefono">
+                    <input type="text" name="Ciudad" placeholder="Ciudad" class="ciudad" name="ciudad">
+                    <textarea cols="30" rows="10" placeholder="Mensaje" class="area" name="message"></textarea>
                     <input type="submit" value="Enviar" class="button">
                 </form>
             </div>
@@ -282,6 +259,8 @@
             <p>&copy;Oscar Reyes Ponciano | Reservo todo los derechos</p>
         </div>
     </div>
+    <div class="lds-roller loader" id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    <script src="./assets/js/codigo.js"></script>
 </body>
 </html>
 
